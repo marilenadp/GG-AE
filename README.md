@@ -2,6 +2,8 @@
 
 This repository contains the implementation of **GG-AE**, a biologically guided self-supervised framework for imaging-genetics analysis. GG-AE is designed to decompose imaging-derived brain atrophy patterns into genetically aligned and residual components, enabling more interpretable analysis of heterogeneous structural variation within the Alzheimer’s disease spectrum.
 
+**Paper:** https://papers.miccai.org/miccai-2026/paper/5853_paper.pdf
+
 > Code release is currently in preparation. Additional training scripts, configuration files, and documentation will be added soon.
 
 ## Overview
@@ -38,14 +40,20 @@ This repository is under active preparation. Planned contents include:
 If you use this code, please cite our paper:
 
 ```bibtex
-@inproceedings{tbd,
-  title     = {TBD},
-  author    = {TBD},
-  booktitle = {TBD},
-  year      = {2026}
+@InProceedings{DeMar_GGAE_MICCAI2026,
+        author = { De Pian, Marilena AND Wen, Junhao AND Davatzikos, Christos},
+        title = { { GG-AE: Genetically-Guided Autoencoder for Disentangling Structural Networks of Brain Atrophy } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 16894},
+        month = {September},
+        page = {pending}
 }
 ```
 
 ## License
 
 TBD.
+
+Contact: mardp@engineering.upenn.edu
