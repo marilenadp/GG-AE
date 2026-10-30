@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.conda/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and results: never commit imaging or genetic data
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.pickle
+*.pkl
+*.csv
+results/
+outputs/
+runs/
